@@ -1,0 +1,29 @@
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# GitHub
+.github/
+
+# Python (not needed for Go server)
+__pycache__/
+*.py[cod]
+*.egg-info/
+ipecho_client/
+pyproject.toml
+venv/
+.venv/
+
+# Docs
+*.md
+LICENSE
+
+# IDE
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+*.exe

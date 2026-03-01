@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Go
+ipecho-server
+*.exe
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test/temp
+*.log
+.coverage
+htmlcov/
+.pytest_cache/

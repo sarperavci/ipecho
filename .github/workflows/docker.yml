@@ -1,0 +1,22 @@
+name: Build and publish Docker image to ghcr.io
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "README.md"
+      - "*.md"
+      - "LICENSE"
+
+jobs:
+  docker_publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build and publish Docker image
+        uses: macbre/push-to-ghcr@master
+        with:
+          image_name: ${{ github.repository }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
