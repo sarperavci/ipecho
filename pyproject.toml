@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ipecho-client"
-version = "1.0.0"
-description = "Minimal SOCKS5 proxy IP detection - 27 bytes total"
+version = "2.0.0"
+description = "Minimal proxy IP detection - SOCKS5 and HTTP proxy support"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.8"
